@@ -11,7 +11,7 @@ RSpec.describe "Kitten Wheelbarrow" do
   end
 
   it 'selects the image inside the element with an id of basket (via descendent relationship)' do
-    expect(css_file_contents).to include('#basket img')
+    expect(css_file_contents).to include('#basket')
   end
 
   it 'selects the image based on the respective sibling element' do
